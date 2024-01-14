@@ -15,11 +15,20 @@ body {
     padding: 18px 36px;
 }
 
+/* header related styles */
+header {
+    background: #FFF8F3;
+    background-image: url("../images/header_bg.png"), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+}
+
 /* nav related styles */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 200px;
 }
 
 .nav-title {
@@ -48,4 +57,59 @@ nav li a {
     color: #474747;
     font-size: 20px;
     font-weight: 400;
+}
+
+/* banner related styles */
+.banner {
+    display: flex;
+    margin: 40px 40px 0 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner .profile-pic {
+    width: 584px;
+    height: 676px;
+}
+
+.banner-content {
+    width: 585px;
+}
+
+.banner-text {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.banner-content .btn-style {
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.banner-content #btn-style {
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    background: #FFF8F3;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
 }
