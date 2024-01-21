@@ -302,11 +302,15 @@ textarea {
     display: none;
 }
 @media screen and (max-width:992px) {
-    .skill-container, .resume-container{
+    .skill-container, .resume-container, .about-info-container{
         flex-direction: column;
     }
 
-    #what-i-do, .resume-container, .skill-container{
+    #what-i-do, .resume-container, .skill-container, .about{
         padding: 30px;
+    }
+    .about-info-container{
+        justify-content: center;
+        align-items: center;
     }
 }
