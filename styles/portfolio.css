@@ -305,7 +305,8 @@ textarea {
     .skill-container, .resume-container{
         flex-direction: column;
     }
-    #what-i-do{
+
+    #what-i-do, .resume-container, .skill-container{
         padding: 30px;
     }
 }
