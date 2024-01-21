@@ -297,3 +297,15 @@ textarea {
     border-radius: 5px;
     background:#FFF;
 }
+/* responsive layout */
+.hide{
+    display: none;
+}
+@media screen and (max-width:960px) {
+    .skill-container{
+        flex-direction: column;
+    }
+    #what-i-do{
+        padding: 30px;
+    }
+}
