@@ -302,7 +302,7 @@ textarea {
     display: none;
 }
 @media screen and (max-width:992px) {
-    .skill-container, .resume-container, .about-info-container, footer{
+    .skill-container, .resume-container, .about-info-container, footer, .banner{
         flex-direction: column;
     }
 
@@ -312,5 +312,11 @@ textarea {
     .about-info-container, footer{
         justify-content: center;
         align-items: center;
+    }
+    header{
+        background-image: none;
+    }
+    .banner{
+        margin: 0;
     }
 }
