@@ -295,38 +295,64 @@ textarea {
     margin-bottom: 25px;
     border: 0;
     border-radius: 5px;
-    background:#FFF;
+    background: #FFF;
 }
+
 /* responsive layout */
-.hide{
+.hide {
     display: none;
 }
+
 @media screen and (max-width:992px) {
-    .skill-container, .resume-container, .about-info-container, footer, .banner, nav{
+
+    .skill-container,
+    .resume-container,
+    .about-info-container,
+    footer,
+    .banner,
+    nav {
         flex-direction: column;
     }
 
-    #what-i-do, .resume-container, .skill-container, .about, footer{
+    #what-i-do,
+    .resume-container,
+    .skill-container,
+    .about,
+    footer {
         padding: 30px;
     }
-    .about-info-container, footer{
+
+    .about-info-container,
+    footer {
         justify-content: center;
         align-items: center;
     }
-    header{
+    .footer-column {
+        width: 100%;
+    }
+    .form-container input[type="text"], input[type="email"], textarea{
+        width: 80%;
+    }
+
+    header {
         background-image: none;
         padding: 30px 30px 0 30px;
     }
-    .banner, nav{
+
+    .banner,
+    nav {
         margin: 0;
     }
-    nav{
+
+    nav {
         align-items: center;
         margin: 0;
     }
-    nav ul{
+
+    nav ul {
         gap: 20px;
     }
+
     .banner .profile-pic {
         width: 100%;
         height: 100%;
